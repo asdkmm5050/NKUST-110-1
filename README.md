@@ -1,4 +1,7 @@
 # NKUST-110-1
+
+[Run in colab](https://colab.research.google.com/github/asdkmm5050/NKUST-110-1/blob/main/NKUST_110_1.ipynb)
+
 ### 將資料全部列出
 ![image](https://user-images.githubusercontent.com/52891597/136228746-90adf8c6-ec73-427a-a966-8482f090c7fa.png)
 ### 使用folium與pandas標示
