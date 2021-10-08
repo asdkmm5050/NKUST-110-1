@@ -7,5 +7,9 @@
 ### 使用folium與pandas標示
 使用google colab開啟
 
-![image](https://user-images.githubusercontent.com/52891597/136228855-db2483a9-0bf8-4777-9e3b-2c5149c31fca.png)
+
+![image](https://user-images.githubusercontent.com/52891597/136487134-3819a9d4-b0d0-4d84-ad20-3c9dcade9302.png)
+![image](https://user-images.githubusercontent.com/52891597/136487255-341baf7d-3f55-41f3-8113-09bbee2991a7.png)
+
+
 
