@@ -8,8 +8,8 @@
 ### 使用folium與pandas標示
 使用google colab開啟
 
-<img src="https://user-images.githubusercontent.com/52891597/136487134-3819a9d4-b0d0-4d84-ad20-3c9dcade9302.png" width=100% height=100% />
-<img src="https://user-images.githubusercontent.com/52891597/136487255-341baf7d-3f55-41f3-8113-09bbee2991a7.png" width=100% height=100% />
+<img src="https://user-images.githubusercontent.com/52891597/136487134-3819a9d4-b0d0-4d84-ad20-3c9dcade9302.png" width=50% height=50% />
+<img src="https://user-images.githubusercontent.com/52891597/136487255-341baf7d-3f55-41f3-8113-09bbee2991a7.png" width=50% height=50% />
 
 
 
