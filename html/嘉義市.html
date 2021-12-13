@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f7eb1af32cf4c39ae391414d6ac6730 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9f7eb1af32cf4c39ae391414d6ac6730" ></div>
+        
+</body>
+<script>    
+    
+            var map_9f7eb1af32cf4c39ae391414d6ac6730 = L.map(
+                "map_9f7eb1af32cf4c39ae391414d6ac6730",
+                {
+                    center: [23.497126, 120.44253],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c8c28847f93840f49efa30f250a6fbba = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+            var marker_0d800c0b13bc4e6a93bb20912af94ad4 = L.marker(
+                [23.497126, 120.44253],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_f70b2acdd227486fa2fa7e02e7859206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30be2ab71fd348cd96588750f0dc4080 = $(`<div id="html_30be2ab71fd348cd96588750f0dc4080" style="width: 100.0%; height: 100.0%;">文化路６９４巷口</div>`)[0];
+            popup_f70b2acdd227486fa2fa7e02e7859206.setContent(html_30be2ab71fd348cd96588750f0dc4080);
+        
+
+        marker_0d800c0b13bc4e6a93bb20912af94ad4.bindPopup(popup_f70b2acdd227486fa2fa7e02e7859206)
+        ;
+
+        
+    
+    
+            var marker_dfce8129828246b7a3fd246e7fc4e93f = L.marker(
+                [23.51212, 120.44435],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_7a132e41865e46dfb753f238d6060221 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_def27342e9c24f39a09f46273d92f529 = $(`<div id="html_def27342e9c24f39a09f46273d92f529" style="width: 100.0%; height: 100.0%;">忠孝路(台1線263公里處)</div>`)[0];
+            popup_7a132e41865e46dfb753f238d6060221.setContent(html_def27342e9c24f39a09f46273d92f529);
+        
+
+        marker_dfce8129828246b7a3fd246e7fc4e93f.bindPopup(popup_7a132e41865e46dfb753f238d6060221)
+        ;
+
+        
+    
+    
+            var marker_bdea2dd31c064d399edda97907595a22 = L.marker(
+                [23.498264, 120.4515],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_16dfb3fe51834adf839b01266a9b509e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f49f4556c6f9433cb053c87ba6391bb5 = $(`<div id="html_f49f4556c6f9433cb053c87ba6391bb5" style="width: 100.0%; height: 100.0%;">忠孝路與義教街口</div>`)[0];
+            popup_16dfb3fe51834adf839b01266a9b509e.setContent(html_f49f4556c6f9433cb053c87ba6391bb5);
+        
+
+        marker_bdea2dd31c064d399edda97907595a22.bindPopup(popup_16dfb3fe51834adf839b01266a9b509e)
+        ;
+
+        
+    
+    
+            var marker_0ed743cdd3ee4b52a4439cf58df26931 = L.marker(
+                [23.468079, 120.46644],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_cf70cc6c0f8641959fadbc08481a63bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f9f523c8285468a946df5ffae84da98 = $(`<div id="html_5f9f523c8285468a946df5ffae84da98" style="width: 100.0%; height: 100.0%;">彌陀路１６２巷口</div>`)[0];
+            popup_cf70cc6c0f8641959fadbc08481a63bd.setContent(html_5f9f523c8285468a946df5ffae84da98);
+        
+
+        marker_0ed743cdd3ee4b52a4439cf58df26931.bindPopup(popup_cf70cc6c0f8641959fadbc08481a63bd)
+        ;
+
+        
+    
+    
+            var marker_97fb4411846c4a6a90d72f615b411403 = L.marker(
+                [23.491884, 120.47364],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_8c65bc7c65e64988b9f3d7e8b26317f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c0ab0e16d846238a65ddecbce84904 = $(`<div id="html_a2c0ab0e16d846238a65ddecbce84904" style="width: 100.0%; height: 100.0%;">林森東路612巷口斜對面</div>`)[0];
+            popup_8c65bc7c65e64988b9f3d7e8b26317f9.setContent(html_a2c0ab0e16d846238a65ddecbce84904);
+        
+
+        marker_97fb4411846c4a6a90d72f615b411403.bindPopup(popup_8c65bc7c65e64988b9f3d7e8b26317f9)
+        ;
+
+        
+    
+    
+            var marker_37cc76bae69c47caab783cc517180728 = L.marker(
+                [23.491804, 120.473755],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_fe8f53b36e2b4367a8957707d0f712bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f03c70387214b089a61f2986cb2da1b = $(`<div id="html_5f03c70387214b089a61f2986cb2da1b" style="width: 100.0%; height: 100.0%;">大雅路一段470號前</div>`)[0];
+            popup_fe8f53b36e2b4367a8957707d0f712bc.setContent(html_5f03c70387214b089a61f2986cb2da1b);
+        
+
+        marker_37cc76bae69c47caab783cc517180728.bindPopup(popup_fe8f53b36e2b4367a8957707d0f712bc)
+        ;
+
+        
+    
+    
+            var marker_cb99f7e351344c43a8ee55b657955b17 = L.marker(
+                [23.46444, 120.49665],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_a3e9e54f5143443ea664cafee0d3a1c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6000684b0b644e1799c965f253d790aa = $(`<div id="html_6000684b0b644e1799c965f253d790aa" style="width: 100.0%; height: 100.0%;">嘉義市彌陀路與學府路口</div>`)[0];
+            popup_a3e9e54f5143443ea664cafee0d3a1c5.setContent(html_6000684b0b644e1799c965f253d790aa);
+        
+
+        marker_cb99f7e351344c43a8ee55b657955b17.bindPopup(popup_a3e9e54f5143443ea664cafee0d3a1c5)
+        ;
+
+        
+    
+    
+            var marker_2fa96a8f43524bec80c417e7c9099dad = L.marker(
+                [23.491566, 120.39789],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_3a26ef0118c34083b2c8fcdfef3e2e91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b22a2015647b4eb191478b3a0beda8ac = $(`<div id="html_b22a2015647b4eb191478b3a0beda8ac" style="width: 100.0%; height: 100.0%;">北港路與竹仔腳路口</div>`)[0];
+            popup_3a26ef0118c34083b2c8fcdfef3e2e91.setContent(html_b22a2015647b4eb191478b3a0beda8ac);
+        
+
+        marker_2fa96a8f43524bec80c417e7c9099dad.bindPopup(popup_3a26ef0118c34083b2c8fcdfef3e2e91)
+        ;
+
+        
+    
+    
+            var marker_2730e22744fd4c85a4fc7cd7f94ed7e0 = L.marker(
+                [23.486872, 120.40342],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_c3a9ff933eab4b6195a87db88d4e5dbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cadeadb16f3436191b8744f45c6012e = $(`<div id="html_6cadeadb16f3436191b8744f45c6012e" style="width: 100.0%; height: 100.0%;">高鐵大道925號前</div>`)[0];
+            popup_c3a9ff933eab4b6195a87db88d4e5dbf.setContent(html_6cadeadb16f3436191b8744f45c6012e);
+        
+
+        marker_2730e22744fd4c85a4fc7cd7f94ed7e0.bindPopup(popup_c3a9ff933eab4b6195a87db88d4e5dbf)
+        ;
+
+        
+    
+    
+            var marker_ffcdd61a832b48deb5402a2a17c50116 = L.marker(
+                [23.490175, 120.403595],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_bd917bf2a2314a2db66edaf19399c0f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39dd5f2c42a741c9ba2eb6db15f54060 = $(`<div id="html_39dd5f2c42a741c9ba2eb6db15f54060" style="width: 100.0%; height: 100.0%;">北港路1158號前</div>`)[0];
+            popup_bd917bf2a2314a2db66edaf19399c0f3.setContent(html_39dd5f2c42a741c9ba2eb6db15f54060);
+        
+
+        marker_ffcdd61a832b48deb5402a2a17c50116.bindPopup(popup_bd917bf2a2314a2db66edaf19399c0f3)
+        ;
+
+        
+    
+    
+            var marker_fe64eedb4dd34df18a4fb05c1b6b1150 = L.marker(
+                [23.479553, 120.42458],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_1be5f46d5cae4f8eaa52a7d95c8fe57a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f257ec2b9dab4079b5b2edf3f72bafaa = $(`<div id="html_f257ec2b9dab4079b5b2edf3f72bafaa" style="width: 100.0%; height: 100.0%;">高鐵大道與四維路口</div>`)[0];
+            popup_1be5f46d5cae4f8eaa52a7d95c8fe57a.setContent(html_f257ec2b9dab4079b5b2edf3f72bafaa);
+        
+
+        marker_fe64eedb4dd34df18a4fb05c1b6b1150.bindPopup(popup_1be5f46d5cae4f8eaa52a7d95c8fe57a)
+        ;
+
+        
+    
+    
+            var marker_ffe6181e0ff7412a99b042ccf876bcee = L.marker(
+                [23.464802, 120.425064],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_45a7594d7be242d2a607b8d90fa95c55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c8e85c5b574450991b17c0cebd3c2cf = $(`<div id="html_6c8e85c5b574450991b17c0cebd3c2cf" style="width: 100.0%; height: 100.0%;">博愛路與自強街口</div>`)[0];
+            popup_45a7594d7be242d2a607b8d90fa95c55.setContent(html_6c8e85c5b574450991b17c0cebd3c2cf);
+        
+
+        marker_ffe6181e0ff7412a99b042ccf876bcee.bindPopup(popup_45a7594d7be242d2a607b8d90fa95c55)
+        ;
+
+        
+    
+    
+            var marker_62f96232aa614c1d981f1a9ab57a0100 = L.marker(
+                [23.479925, 120.43007],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_bd9dde7e2e2a4d3b8402cf09b959d249 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_668afd374c534f94952e9ea7d4608d36 = $(`<div id="html_668afd374c534f94952e9ea7d4608d36" style="width: 100.0%; height: 100.0%;">北港路與中興路口</div>`)[0];
+            popup_bd9dde7e2e2a4d3b8402cf09b959d249.setContent(html_668afd374c534f94952e9ea7d4608d36);
+        
+
+        marker_62f96232aa614c1d981f1a9ab57a0100.bindPopup(popup_bd9dde7e2e2a4d3b8402cf09b959d249)
+        ;
+
+        
+    
+    
+            var marker_17c1e7b58b394fad9eac804ccdc37f81 = L.marker(
+                [23.477198, 120.4309],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_df011aaa98a14fdfa807627d5ea7e507 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_708132fd2e55476aa9bf76c3e53d5367 = $(`<div id="html_708132fd2e55476aa9bf76c3e53d5367" style="width: 100.0%; height: 100.0%;">高鐵大道與福義街口</div>`)[0];
+            popup_df011aaa98a14fdfa807627d5ea7e507.setContent(html_708132fd2e55476aa9bf76c3e53d5367);
+        
+
+        marker_17c1e7b58b394fad9eac804ccdc37f81.bindPopup(popup_df011aaa98a14fdfa807627d5ea7e507)
+        ;
+
+        
+    
+    
+            var marker_b2fb21177169432392cb2f5c115fce9d = L.marker(
+                [23.472664, 120.43792],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_289efb0c822245df9a5da2fb8b5d8916 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7edb2ec73624456b27794ae89db39f9 = $(`<div id="html_b7edb2ec73624456b27794ae89db39f9" style="width: 100.0%; height: 100.0%;">嘉義市垂楊大橋與新建街口</div>`)[0];
+            popup_289efb0c822245df9a5da2fb8b5d8916.setContent(html_b7edb2ec73624456b27794ae89db39f9);
+        
+
+        marker_b2fb21177169432392cb2f5c115fce9d.bindPopup(popup_289efb0c822245df9a5da2fb8b5d8916)
+        ;
+
+        
+    
+    
+            var marker_69600519acb848b68d06efdaee319e9e = L.marker(
+                [23.480522, 120.438644],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_34bb5b328cb84468aa238b078fde7462 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d909a1ab91ea4942aaa36cf763330157 = $(`<div id="html_d909a1ab91ea4942aaa36cf763330157" style="width: 100.0%; height: 100.0%;">博愛路二段與中興路口</div>`)[0];
+            popup_34bb5b328cb84468aa238b078fde7462.setContent(html_d909a1ab91ea4942aaa36cf763330157);
+        
+
+        marker_69600519acb848b68d06efdaee319e9e.bindPopup(popup_34bb5b328cb84468aa238b078fde7462)
+        ;
+
+        
+    
+    
+            var marker_2a73ae2438644ea491462e7d257d84a0 = L.marker(
+                [23.444014, 120.43907],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_620aa07c83ba44399a37b9cbed745f15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22fc619de3a4461f87a4ce265d9b2542 = $(`<div id="html_22fc619de3a4461f87a4ce265d9b2542" style="width: 100.0%; height: 100.0%;">湖子內路與環湖一街口</div>`)[0];
+            popup_620aa07c83ba44399a37b9cbed745f15.setContent(html_22fc619de3a4461f87a4ce265d9b2542);
+        
+
+        marker_2a73ae2438644ea491462e7d257d84a0.bindPopup(popup_620aa07c83ba44399a37b9cbed745f15)
+        ;
+
+        
+    
+    
+            var marker_5d2a9a1cdb5142e9b737a6a5dc93d677 = L.marker(
+                [23.459938, 120.44056],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_6c7aef6ea30e488289a427c1ea49d5b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19193d4e01e44c39b25684f01cc440c0 = $(`<div id="html_19193d4e01e44c39b25684f01cc440c0" style="width: 100.0%; height: 100.0%;">新民路416巷口</div>`)[0];
+            popup_6c7aef6ea30e488289a427c1ea49d5b6.setContent(html_19193d4e01e44c39b25684f01cc440c0);
+        
+
+        marker_5d2a9a1cdb5142e9b737a6a5dc93d677.bindPopup(popup_6c7aef6ea30e488289a427c1ea49d5b6)
+        ;
+
+        
+    
+    
+            var marker_9b5760032fb346acb57e511a81355621 = L.marker(
+                [23.478798, 120.44178],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_9ce2485cf2ce41bc8ebd37d155b2cbe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d52ab7e4ecb049c1905c595f5ddf6aed = $(`<div id="html_d52ab7e4ecb049c1905c595f5ddf6aed" style="width: 100.0%; height: 100.0%;">嘉義市中山路與中正路口</div>`)[0];
+            popup_9ce2485cf2ce41bc8ebd37d155b2cbe1.setContent(html_d52ab7e4ecb049c1905c595f5ddf6aed);
+        
+
+        marker_9b5760032fb346acb57e511a81355621.bindPopup(popup_9ce2485cf2ce41bc8ebd37d155b2cbe1)
+        ;
+
+        
+    
+    
+            var marker_acc2ff7fe7bc4d059cfa7157affd0c5c = L.marker(
+                [23.479103, 120.442024],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_49801afa4383435ebc7fab006b6345fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a2fcbd08be04a328ae761e4db7e19f0 = $(`<div id="html_3a2fcbd08be04a328ae761e4db7e19f0" style="width: 100.0%; height: 100.0%;">嘉義市中山路與林森西路口</div>`)[0];
+            popup_49801afa4383435ebc7fab006b6345fb.setContent(html_3a2fcbd08be04a328ae761e4db7e19f0);
+        
+
+        marker_acc2ff7fe7bc4d059cfa7157affd0c5c.bindPopup(popup_49801afa4383435ebc7fab006b6345fb)
+        ;
+
+        
+    
+    
+            var marker_3e1973b79785442bb0d61740d5e30682 = L.marker(
+                [23.453062, 120.44225],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_24005b0f3bee4f399ff84723aaac874c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1769b017462425c9d57234c476c81b5 = $(`<div id="html_f1769b017462425c9d57234c476c81b5" style="width: 100.0%; height: 100.0%;">湖子內路１００號前</div>`)[0];
+            popup_24005b0f3bee4f399ff84723aaac874c.setContent(html_f1769b017462425c9d57234c476c81b5);
+        
+
+        marker_3e1973b79785442bb0d61740d5e30682.bindPopup(popup_24005b0f3bee4f399ff84723aaac874c)
+        ;
+
+        
+    
+    
+            var marker_0227f903e8d242dc9e2afa85c6d44d9a = L.marker(
+                [23.4687, 120.449135],
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+        var popup_47a87f25a69443a7bd62a6b63163b88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d630d8945f545f9a18906f96f7b83f1 = $(`<div id="html_0d630d8945f545f9a18906f96f7b83f1" style="width: 100.0%; height: 100.0%;">興業東路與國華街口</div>`)[0];
+            popup_47a87f25a69443a7bd62a6b63163b88e.setContent(html_0d630d8945f545f9a18906f96f7b83f1);
+        
+
+        marker_0227f903e8d242dc9e2afa85c6d44d9a.bindPopup(popup_47a87f25a69443a7bd62a6b63163b88e)
+        ;
+
+        
+    
+    
+            var heat_map_8c2980c923964188919c744684235f45 = L.heatLayer(
+                [[23.497126, 120.44253], [23.51212, 120.44435], [23.498264, 120.4515], [23.468079, 120.46644], [23.491884, 120.47364], [23.491804, 120.473755], [23.46444, 120.49665], [23.491566, 120.39789], [23.486872, 120.40342], [23.490175, 120.403595], [23.479553, 120.42458], [23.464802, 120.425064], [23.479925, 120.43007], [23.477198, 120.4309], [23.472664, 120.43792], [23.480522, 120.438644], [23.444014, 120.43907], [23.459938, 120.44056], [23.478798, 120.44178], [23.479103, 120.442024], [23.453062, 120.44225], [23.4687, 120.449135]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+    
+            var feature_group_6d04dc690542495baf12e7e5246475cc = L.featureGroup(
+                {}
+            ).addTo(map_9f7eb1af32cf4c39ae391414d6ac6730);
+        
+</script>

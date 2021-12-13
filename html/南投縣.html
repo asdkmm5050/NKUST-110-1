@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_773acb7de57c4a239c6a599f574132a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_773acb7de57c4a239c6a599f574132a6" ></div>
+        
+</body>
+<script>    
+    
+            var map_773acb7de57c4a239c6a599f574132a6 = L.map(
+                "map_773acb7de57c4a239c6a599f574132a6",
+                {
+                    center: [23.91971, 120.637566],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4af07629f80a407abbc36d55021f0525 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+            var marker_2f2723e6de254826aa78b04f5d5b0d6c = L.marker(
+                [23.91971, 120.637566],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_9338a5def1ea493faa2530274d5ab5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04256fe68e6c4912b21ac52b92c4d3a5 = $(`<div id="html_04256fe68e6c4912b21ac52b92c4d3a5" style="width: 100.0%; height: 100.0%;">139線35.95公里處</div>`)[0];
+            popup_9338a5def1ea493faa2530274d5ab5e3.setContent(html_04256fe68e6c4912b21ac52b92c4d3a5);
+        
+
+        marker_2f2723e6de254826aa78b04f5d5b0d6c.bindPopup(popup_9338a5def1ea493faa2530274d5ab5e3)
+        ;
+
+        
+    
+    
+            var marker_55db04c8122447909019cc0d070a106a = L.marker(
+                [23.930109, 120.678246],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_8be26f1ee21b4572b4983e10167dd674 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3e2992c92904d12a6e32fa057f0b4dc = $(`<div id="html_b3e2992c92904d12a6e32fa057f0b4dc" style="width: 100.0%; height: 100.0%;">華陽路850號前</div>`)[0];
+            popup_8be26f1ee21b4572b4983e10167dd674.setContent(html_b3e2992c92904d12a6e32fa057f0b4dc);
+        
+
+        marker_55db04c8122447909019cc0d070a106a.bindPopup(popup_8be26f1ee21b4572b4983e10167dd674)
+        ;
+
+        
+    
+    
+            var marker_af408a08d5864790a1f93f6084183b1e = L.marker(
+                [23.90651, 120.67985],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_0933816fe12948b0945f4dabc3444c7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36bb07c1c853433aace6b06f022a374f = $(`<div id="html_36bb07c1c853433aace6b06f022a374f" style="width: 100.0%; height: 100.0%;">南投市南崗一路與民族路口</div>`)[0];
+            popup_0933816fe12948b0945f4dabc3444c7f.setContent(html_36bb07c1c853433aace6b06f022a374f);
+        
+
+        marker_af408a08d5864790a1f93f6084183b1e.bindPopup(popup_0933816fe12948b0945f4dabc3444c7f)
+        ;
+
+        
+    
+    
+            var marker_98609ccb084645478c1744d20303202c = L.marker(
+                [23.93615, 120.686226],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_08ab77430fcc494487d395fa224bb792 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b731843ef98f491bb791f4cbe65e0612 = $(`<div id="html_b731843ef98f491bb791f4cbe65e0612" style="width: 100.0%; height: 100.0%;">東閔路1.35公里</div>`)[0];
+            popup_08ab77430fcc494487d395fa224bb792.setContent(html_b731843ef98f491bb791f4cbe65e0612);
+        
+
+        marker_98609ccb084645478c1744d20303202c.bindPopup(popup_08ab77430fcc494487d395fa224bb792)
+        ;
+
+        
+    
+    
+            var marker_e980064045934674b1fd6de58eee7212 = L.marker(
+                [23.888296, 120.68987],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_2ee3f34632404c68ac956ade25c44f78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa7f9d9a49d44e769864403cd4fec799 = $(`<div id="html_aa7f9d9a49d44e769864403cd4fec799" style="width: 100.0%; height: 100.0%;">臺3線215.5公里</div>`)[0];
+            popup_2ee3f34632404c68ac956ade25c44f78.setContent(html_aa7f9d9a49d44e769864403cd4fec799);
+        
+
+        marker_e980064045934674b1fd6de58eee7212.bindPopup(popup_2ee3f34632404c68ac956ade25c44f78)
+        ;
+
+        
+    
+    
+            var marker_caf817d497bd4a96b68104c4e25a5bae = L.marker(
+                [23.948853, 120.93764],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_2b0d0d97fedb4feb948a073491d65cfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9911547761a4a978df58e205274ead6 = $(`<div id="html_b9911547761a4a978df58e205274ead6" style="width: 100.0%; height: 100.0%;">臺21線49.9公里</div>`)[0];
+            popup_2b0d0d97fedb4feb948a073491d65cfa.setContent(html_b9911547761a4a978df58e205274ead6);
+        
+
+        marker_caf817d497bd4a96b68104c4e25a5bae.bindPopup(popup_2b0d0d97fedb4feb948a073491d65cfa)
+        ;
+
+        
+    
+    
+            var marker_d72212623345479a806c960e130bc590 = L.marker(
+                [23.970133, 120.95306],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_71d253cd6a83441c8fe3b0b2cac0c309 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_598db85523cb41df94f67b061701d073 = $(`<div id="html_598db85523cb41df94f67b061701d073" style="width: 100.0%; height: 100.0%;">埔里鎮信義路、中山路三段與南安路口闖紅燈、未依標線指示行駛及測速</div>`)[0];
+            popup_71d253cd6a83441c8fe3b0b2cac0c309.setContent(html_598db85523cb41df94f67b061701d073);
+        
+
+        marker_d72212623345479a806c960e130bc590.bindPopup(popup_71d253cd6a83441c8fe3b0b2cac0c309)
+        ;
+
+        
+    
+    
+            var marker_63dc90901d8f48469aaa626c1d315eb3 = L.marker(
+                [23.956371, 120.97403],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_0b980853cf1944978e6851a8527c689a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a79c0cee76c493baa8a44580dbf08b4 = $(`<div id="html_5a79c0cee76c493baa8a44580dbf08b4" style="width: 100.0%; height: 100.0%;">埔里鎮和平東路與中正路口闖紅燈、違規停(臨)車、未依標線指示行駛、測速</div>`)[0];
+            popup_0b980853cf1944978e6851a8527c689a.setContent(html_5a79c0cee76c493baa8a44580dbf08b4);
+        
+
+        marker_63dc90901d8f48469aaa626c1d315eb3.bindPopup(popup_0b980853cf1944978e6851a8527c689a)
+        ;
+
+        
+    
+    
+            var marker_c7a9170189954163a9e52b292c759f20 = L.marker(
+                [23.963615, 120.65508],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_7cf8e0caca6645e09ef033f653bccc0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ce3140020c44a13bd9256408620f83f = $(`<div id="html_3ce3140020c44a13bd9256408620f83f" style="width: 100.0%; height: 100.0%;">臺14乙線5.9公里</div>`)[0];
+            popup_7cf8e0caca6645e09ef033f653bccc0b.setContent(html_3ce3140020c44a13bd9256408620f83f);
+        
+
+        marker_c7a9170189954163a9e52b292c759f20.bindPopup(popup_7cf8e0caca6645e09ef033f653bccc0b)
+        ;
+
+        
+    
+    
+            var marker_167c358d0dd84d0d82c875bbaee8243b = L.marker(
+                [24.00289, 120.67785],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_a51e7ccac2884a5fa821b8bf33efafcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f497913b6ec149c1af70584ef8f14082 = $(`<div id="html_f497913b6ec149c1af70584ef8f14082" style="width: 100.0%; height: 100.0%;">臺63甲線0.3公里闖紅燈及未依標線指示行駛</div>`)[0];
+            popup_a51e7ccac2884a5fa821b8bf33efafcd.setContent(html_f497913b6ec149c1af70584ef8f14082);
+        
+
+        marker_167c358d0dd84d0d82c875bbaee8243b.bindPopup(popup_a51e7ccac2884a5fa821b8bf33efafcd)
+        ;
+
+        
+    
+    
+            var marker_19abe08154fc40e495eb18259a8184c4 = L.marker(
+                [23.996204, 120.67963],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_b2766b72029b4c6e9432bd694203409b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb24d27cb12b4c17a7327ddb2ed160ea = $(`<div id="html_fb24d27cb12b4c17a7327ddb2ed160ea" style="width: 100.0%; height: 100.0%;">臺63甲線1.2公里</div>`)[0];
+            popup_b2766b72029b4c6e9432bd694203409b.setContent(html_fb24d27cb12b4c17a7327ddb2ed160ea);
+        
+
+        marker_19abe08154fc40e495eb18259a8184c4.bindPopup(popup_b2766b72029b4c6e9432bd694203409b)
+        ;
+
+        
+    
+    
+            var marker_7d25305c787b45cc941b551086bb4391 = L.marker(
+                [23.98525, 120.68671],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_0db17914dd6e42fe9c9329247e60e4e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63ead5f54f1246329f494392d9231d11 = $(`<div id="html_63ead5f54f1246329f494392d9231d11" style="width: 100.0%; height: 100.0%;">草屯鎮中正路與博愛路口</div>`)[0];
+            popup_0db17914dd6e42fe9c9329247e60e4e3.setContent(html_63ead5f54f1246329f494392d9231d11);
+        
+
+        marker_7d25305c787b45cc941b551086bb4391.bindPopup(popup_0db17914dd6e42fe9c9329247e60e4e3)
+        ;
+
+        
+    
+    
+            var marker_8ccca4673ac64a03b72dd4590b34c3e9 = L.marker(
+                [24.004614, 120.69453],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_42f9e3eaed004a85b0759fa5d86a43e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_768f3984b7fb475293aa6e09af0329df = $(`<div id="html_768f3984b7fb475293aa6e09af0329df" style="width: 100.0%; height: 100.0%;">草屯鎮中正路與大覺路口</div>`)[0];
+            popup_42f9e3eaed004a85b0759fa5d86a43e1.setContent(html_768f3984b7fb475293aa6e09af0329df);
+        
+
+        marker_8ccca4673ac64a03b72dd4590b34c3e9.bindPopup(popup_42f9e3eaed004a85b0759fa5d86a43e1)
+        ;
+
+        
+    
+    
+            var marker_327e4a1d335341f09edd1ca9deeeb1cc = L.marker(
+                [23.97888, 120.69843],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_03a51e42a7dc4fce87c50625634f01b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce2bf37d4aa044dab12ec9b0e952c8f1 = $(`<div id="html_ce2bf37d4aa044dab12ec9b0e952c8f1" style="width: 100.0%; height: 100.0%;">臺14線富功國小前</div>`)[0];
+            popup_03a51e42a7dc4fce87c50625634f01b3.setContent(html_ce2bf37d4aa044dab12ec9b0e952c8f1);
+        
+
+        marker_327e4a1d335341f09edd1ca9deeeb1cc.bindPopup(popup_03a51e42a7dc4fce87c50625634f01b3)
+        ;
+
+        
+    
+    
+            var marker_5ec11bf9872645fb86810d6275b10ac0 = L.marker(
+                [23.996405, 120.722466],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_e41821c8c4d74f9198e4de0e48b808b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c84f7e73638249689318441cabf6ef09 = $(`<div id="html_c84f7e73638249689318441cabf6ef09" style="width: 100.0%; height: 100.0%;">東草屯交流道永安路1.8公里闖紅燈、未依標線指示行駛及測速</div>`)[0];
+            popup_e41821c8c4d74f9198e4de0e48b808b4.setContent(html_c84f7e73638249689318441cabf6ef09);
+        
+
+        marker_5ec11bf9872645fb86810d6275b10ac0.bindPopup(popup_e41821c8c4d74f9198e4de0e48b808b4)
+        ;
+
+        
+    
+    
+            var marker_79cd429a825a484788baf0046066e949 = L.marker(
+                [23.757366, 120.6793],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_0d0e44fdd39b404998f48aa40f6690c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6330b8f54f2848ae94073cde1d8463c2 = $(`<div id="html_6330b8f54f2848ae94073cde1d8463c2" style="width: 100.0%; height: 100.0%;">大明路與前山路口闖紅燈及未依標線指示行駛</div>`)[0];
+            popup_0d0e44fdd39b404998f48aa40f6690c6.setContent(html_6330b8f54f2848ae94073cde1d8463c2);
+        
+
+        marker_79cd429a825a484788baf0046066e949.bindPopup(popup_0d0e44fdd39b404998f48aa40f6690c6)
+        ;
+
+        
+    
+    
+            var marker_34b5b83dfab24dfab1c6c508562e19dc = L.marker(
+                [23.808374, 120.705376],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_6ddc6aac3d614d13a0782a2c5412842a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eecd7178d3a4d9bb177579f39197e4e = $(`<div id="html_3eecd7178d3a4d9bb177579f39197e4e" style="width: 100.0%; height: 100.0%;">社寮產業運輸道路2.15公里處</div>`)[0];
+            popup_6ddc6aac3d614d13a0782a2c5412842a.setContent(html_3eecd7178d3a4d9bb177579f39197e4e);
+        
+
+        marker_34b5b83dfab24dfab1c6c508562e19dc.bindPopup(popup_6ddc6aac3d614d13a0782a2c5412842a)
+        ;
+
+        
+    
+    
+            var marker_b3f1e30294f543dca6266e2eff6a38af = L.marker(
+                [23.789066, 120.70938],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_91594c525ce344d7a4fe6fc58a00cfb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44217fa1fac44be5ab9a33688c258328 = $(`<div id="html_44217fa1fac44be5ab9a33688c258328" style="width: 100.0%; height: 100.0%;">臺3線227.7公里</div>`)[0];
+            popup_91594c525ce344d7a4fe6fc58a00cfb6.setContent(html_44217fa1fac44be5ab9a33688c258328);
+        
+
+        marker_b3f1e30294f543dca6266e2eff6a38af.bindPopup(popup_91594c525ce344d7a4fe6fc58a00cfb6)
+        ;
+
+        
+    
+    
+            var marker_e5bc533af788428ea7c92255d6a33bd8 = L.marker(
+                [23.82349, 120.72166],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_2f5c3a4293424ca7bb913e8a80b2467e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c50d6e050484032ba7b19ef5481f746 = $(`<div id="html_7c50d6e050484032ba7b19ef5481f746" style="width: 100.0%; height: 100.0%;">社寮產業運輸道路4.5公里處</div>`)[0];
+            popup_2f5c3a4293424ca7bb913e8a80b2467e.setContent(html_7c50d6e050484032ba7b19ef5481f746);
+        
+
+        marker_e5bc533af788428ea7c92255d6a33bd8.bindPopup(popup_2f5c3a4293424ca7bb913e8a80b2467e)
+        ;
+
+        
+    
+    
+            var marker_e804db7f349444fab077dcbb56bf5b72 = L.marker(
+                [23.834896, 120.730965],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_fd3324060597465bbe8f2439dbd81b56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6072295593548359d4bba947c6a65d2 = $(`<div id="html_a6072295593548359d4bba947c6a65d2" style="width: 100.0%; height: 100.0%;">臺16線2.37公里</div>`)[0];
+            popup_fd3324060597465bbe8f2439dbd81b56.setContent(html_a6072295593548359d4bba947c6a65d2);
+        
+
+        marker_e804db7f349444fab077dcbb56bf5b72.bindPopup(popup_fd3324060597465bbe8f2439dbd81b56)
+        ;
+
+        
+    
+    
+            var marker_4180f562122d43a0afabbd19a12ff556 = L.marker(
+                [23.828299, 120.75247],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_de6f2ae144ee4d0da093bf4a51f77bbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c0de5d394e04563867fe5a83dfb8f32 = $(`<div id="html_6c0de5d394e04563867fe5a83dfb8f32" style="width: 100.0%; height: 100.0%;">臺16線4.8公里闖紅燈、未依標線指示行駛及測速</div>`)[0];
+            popup_de6f2ae144ee4d0da093bf4a51f77bbe.setContent(html_6c0de5d394e04563867fe5a83dfb8f32);
+        
+
+        marker_4180f562122d43a0afabbd19a12ff556.bindPopup(popup_de6f2ae144ee4d0da093bf4a51f77bbe)
+        ;
+
+        
+    
+    
+            var marker_e7aa6042653e481a93d49ed927aee0e8 = L.marker(
+                [23.73256, 120.768555],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_c9addb819cf244e2b07f1c97c3409d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ca49d8e96064ac1a874361247e1e81a = $(`<div id="html_3ca49d8e96064ac1a874361247e1e81a" style="width: 100.0%; height: 100.0%;">鹿谷鄉151線10.07公里處</div>`)[0];
+            popup_c9addb819cf244e2b07f1c97c3409d89.setContent(html_3ca49d8e96064ac1a874361247e1e81a);
+        
+
+        marker_e7aa6042653e481a93d49ed927aee0e8.bindPopup(popup_c9addb819cf244e2b07f1c97c3409d89)
+        ;
+
+        
+    
+    
+            var marker_935bb7cb46814d90bb2ec77e29e666ae = L.marker(
+                [23.894646, 120.71774],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_e6f63601ad1545d68570b8a4810d7592 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2120916846c443278e5915f6d4b54036 = $(`<div id="html_2120916846c443278e5915f6d4b54036" style="width: 100.0%; height: 100.0%;">中寮鄉139線47.5公里處</div>`)[0];
+            popup_e6f63601ad1545d68570b8a4810d7592.setContent(html_2120916846c443278e5915f6d4b54036);
+        
+
+        marker_935bb7cb46814d90bb2ec77e29e666ae.bindPopup(popup_e6f63601ad1545d68570b8a4810d7592)
+        ;
+
+        
+    
+    
+            var marker_c958a5b9ec7048dba35f4eb09a027356 = L.marker(
+                [23.94172, 120.92913],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_2cc0f422371940dd833a09d93e7ffb3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2deee18660e1423ba0973808b81aae04 = $(`<div id="html_2deee18660e1423ba0973808b81aae04" style="width: 100.0%; height: 100.0%;">魚池鄉臺21線53.9K至51.1K(區間測速)</div>`)[0];
+            popup_2cc0f422371940dd833a09d93e7ffb3f.setContent(html_2deee18660e1423ba0973808b81aae04);
+        
+
+        marker_c958a5b9ec7048dba35f4eb09a027356.bindPopup(popup_2cc0f422371940dd833a09d93e7ffb3f)
+        ;
+
+        
+    
+    
+            var marker_35baa2072ed148d5b5d565f20851cf96 = L.marker(
+                [24.01532, 120.84806],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_6d83428ae57c445eb09ef6f35bf1a273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f87583e5c294608846b8b511aa7ae7f = $(`<div id="html_7f87583e5c294608846b8b511aa7ae7f" style="width: 100.0%; height: 100.0%;">國姓鄉臺14線40.1公里處</div>`)[0];
+            popup_6d83428ae57c445eb09ef6f35bf1a273.setContent(html_7f87583e5c294608846b8b511aa7ae7f);
+        
+
+        marker_35baa2072ed148d5b5d565f20851cf96.bindPopup(popup_6d83428ae57c445eb09ef6f35bf1a273)
+        ;
+
+        
+    
+    
+            var marker_1a92d840a21a478da74543c218290a74 = L.marker(
+                [23.662935, 120.87654],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_3eed9b06165e4d7abe3cb1e6c27af3ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec173f004eba4daf807cdeb875865e11 = $(`<div id="html_ec173f004eba4daf807cdeb875865e11" style="width: 100.0%; height: 100.0%;">臺21線93.1公里處(臺21線與敦福路口)</div>`)[0];
+            popup_3eed9b06165e4d7abe3cb1e6c27af3ea.setContent(html_ec173f004eba4daf807cdeb875865e11);
+        
+
+        marker_1a92d840a21a478da74543c218290a74.bindPopup(popup_3eed9b06165e4d7abe3cb1e6c27af3ea)
+        ;
+
+        
+    
+    
+            var marker_d88db08455d44d28a4aa908e730c350c = L.marker(
+                [24.002531, 121.084465],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_886092c84d9b4203aaf832a2536cb5a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa86654d647343b4baf10f5aab8a3c9c = $(`<div id="html_fa86654d647343b4baf10f5aab8a3c9c" style="width: 100.0%; height: 100.0%;">仁愛鄉臺14線70.7公里處</div>`)[0];
+            popup_886092c84d9b4203aaf832a2536cb5a9.setContent(html_fa86654d647343b4baf10f5aab8a3c9c);
+        
+
+        marker_d88db08455d44d28a4aa908e730c350c.bindPopup(popup_886092c84d9b4203aaf832a2536cb5a9)
+        ;
+
+        
+    
+    
+            var marker_9da28c3fc43f4ad59d820953f2820287 = L.marker(
+                [24.045826, 121.15568],
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+        var popup_49a4db14faf14f45b85c16cb82b8db9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc2274662cb4eba85db31c8b8ea0aaa = $(`<div id="html_1bc2274662cb4eba85db31c8b8ea0aaa" style="width: 100.0%; height: 100.0%;">臺14甲線7.95公里處</div>`)[0];
+            popup_49a4db14faf14f45b85c16cb82b8db9f.setContent(html_1bc2274662cb4eba85db31c8b8ea0aaa);
+        
+
+        marker_9da28c3fc43f4ad59d820953f2820287.bindPopup(popup_49a4db14faf14f45b85c16cb82b8db9f)
+        ;
+
+        
+    
+    
+            var heat_map_9321eb3e2bb142c59ac75a98789ffb71 = L.heatLayer(
+                [[23.91971, 120.637566], [23.930109, 120.678246], [23.90651, 120.67985], [23.93615, 120.686226], [23.888296, 120.68987], [23.948853, 120.93764], [23.970133, 120.95306], [23.956371, 120.97403], [23.963615, 120.65508], [24.00289, 120.67785], [23.996204, 120.67963], [23.98525, 120.68671], [24.004614, 120.69453], [23.97888, 120.69843], [23.996405, 120.722466], [23.757366, 120.6793], [23.808374, 120.705376], [23.789066, 120.70938], [23.82349, 120.72166], [23.834896, 120.730965], [23.828299, 120.75247], [23.73256, 120.768555], [23.894646, 120.71774], [23.94172, 120.92913], [24.01532, 120.84806], [23.662935, 120.87654], [24.002531, 121.084465], [24.045826, 121.15568]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+    
+            var feature_group_2708e01894b743118e1bf9642f646e20 = L.featureGroup(
+                {}
+            ).addTo(map_773acb7de57c4a239c6a599f574132a6);
+        
+</script>

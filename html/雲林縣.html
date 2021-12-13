@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f78ed2cb3c346f7afa9d6cb566466c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9f78ed2cb3c346f7afa9d6cb566466c8" ></div>
+        
+</body>
+<script>    
+    
+            var map_9f78ed2cb3c346f7afa9d6cb566466c8 = L.map(
+                "map_9f78ed2cb3c346f7afa9d6cb566466c8",
+                {
+                    center: [23.774952, 120.27286],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b15b551d85a410eafd9315d121729eb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+            var marker_7801c6e98f6a44d09f67877284c73dc9 = L.marker(
+                [23.774952, 120.27286],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_0239269e8d374309b89050bb23bf66a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b5505bb32684c619f8fdde9c4940258 = $(`<div id="html_6b5505bb32684c619f8fdde9c4940258" style="width: 100.0%; height: 100.0%;">臺61線南下218k+250m至226k+250m(區間平均速率自動偵測照相系統路段)</div>`)[0];
+            popup_0239269e8d374309b89050bb23bf66a2.setContent(html_6b5505bb32684c619f8fdde9c4940258);
+        
+
+        marker_7801c6e98f6a44d09f67877284c73dc9.bindPopup(popup_0239269e8d374309b89050bb23bf66a2)
+        ;
+
+        
+    
+    
+            var marker_fbe52a1da0d449c98cb060b9b9aa41b7 = L.marker(
+                [23.691448, 120.50823],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_c5b7ea4e37914797a8ad8c9487498165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8a69886c08d438488748c487f73a103 = $(`<div id="html_b8a69886c08d438488748c487f73a103" style="width: 100.0%; height: 100.0%;">台1丁線公路與久安路口</div>`)[0];
+            popup_c5b7ea4e37914797a8ad8c9487498165.setContent(html_b8a69886c08d438488748c487f73a103);
+        
+
+        marker_fbe52a1da0d449c98cb060b9b9aa41b7.bindPopup(popup_c5b7ea4e37914797a8ad8c9487498165)
+        ;
+
+        
+    
+    
+            var marker_a8d9c8c2800f44e0810bb582aba552b4 = L.marker(
+                [23.695944, 120.53308],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_f01e9b8ded29453390e97e4b6d8bf84e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1620e1033666476e8b2115c15314a099 = $(`<div id="html_1620e1033666476e8b2115c15314a099" style="width: 100.0%; height: 100.0%;">大學路與雲林科技大學前路口</div>`)[0];
+            popup_f01e9b8ded29453390e97e4b6d8bf84e.setContent(html_1620e1033666476e8b2115c15314a099);
+        
+
+        marker_a8d9c8c2800f44e0810bb582aba552b4.bindPopup(popup_f01e9b8ded29453390e97e4b6d8bf84e)
+        ;
+
+        
+    
+    
+            var marker_fea4eb92b0b84ff5bfe4b45528ac8e58 = L.marker(
+                [23.696798, 120.53748],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_baaca4ad76ed447295f9ea4fa200ec9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bd3f91b03fd4055a27f43ed6015b51a = $(`<div id="html_3bd3f91b03fd4055a27f43ed6015b51a" style="width: 100.0%; height: 100.0%;">斗六市大學路與中山路路口</div>`)[0];
+            popup_baaca4ad76ed447295f9ea4fa200ec9c.setContent(html_3bd3f91b03fd4055a27f43ed6015b51a);
+        
+
+        marker_fea4eb92b0b84ff5bfe4b45528ac8e58.bindPopup(popup_baaca4ad76ed447295f9ea4fa200ec9c)
+        ;
+
+        
+    
+    
+            var marker_245cdf9b63fc4d60ab94996d9230cc03 = L.marker(
+                [23.699762, 120.54649],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_9105d229de6c4c1f8041d05bbc7c1dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5168a347035547c9a2cfc832d23da98c = $(`<div id="html_5168a347035547c9a2cfc832d23da98c" style="width: 100.0%; height: 100.0%;">台3線公路252k+65m處</div>`)[0];
+            popup_9105d229de6c4c1f8041d05bbc7c1dd7.setContent(html_5168a347035547c9a2cfc832d23da98c);
+        
+
+        marker_245cdf9b63fc4d60ab94996d9230cc03.bindPopup(popup_9105d229de6c4c1f8041d05bbc7c1dd7)
+        ;
+
+        
+    
+    
+            var marker_2b7455bc2601446cba8942737bb04212 = L.marker(
+                [23.717327, 120.55062],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_1e4e57675f284168b73812fc31382ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d267a06d5d88446fbd02dac153f59882 = $(`<div id="html_d267a06d5d88446fbd02dac153f59882" style="width: 100.0%; height: 100.0%;">斗六市明德北路與育英北街路口</div>`)[0];
+            popup_1e4e57675f284168b73812fc31382ac6.setContent(html_d267a06d5d88446fbd02dac153f59882);
+        
+
+        marker_2b7455bc2601446cba8942737bb04212.bindPopup(popup_1e4e57675f284168b73812fc31382ac6)
+        ;
+
+        
+    
+    
+            var marker_0b2ae70062a44b0a9172677d93148e99 = L.marker(
+                [23.680202, 120.55256],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_ac756ce471ca4309839ff45707d54fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56fbbb9105df430aab83299460fb07e2 = $(`<div id="html_56fbbb9105df430aab83299460fb07e2" style="width: 100.0%; height: 100.0%;">154乙縣道13k+200m處(環科大前)</div>`)[0];
+            popup_ac756ce471ca4309839ff45707d54fa0.setContent(html_56fbbb9105df430aab83299460fb07e2);
+        
+
+        marker_0b2ae70062a44b0a9172677d93148e99.bindPopup(popup_ac756ce471ca4309839ff45707d54fa0)
+        ;
+
+        
+    
+    
+            var marker_f9708e4bd1c349d683b8790c180db681 = L.marker(
+                [23.702805, 120.55346],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_dd63eb0234f84f999aed925e2f4f8e36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77dda0f108f249d28fffae8072a31749 = $(`<div id="html_77dda0f108f249d28fffae8072a31749" style="width: 100.0%; height: 100.0%;">斗六市台3線公路與成功路口</div>`)[0];
+            popup_dd63eb0234f84f999aed925e2f4f8e36.setContent(html_77dda0f108f249d28fffae8072a31749);
+        
+
+        marker_f9708e4bd1c349d683b8790c180db681.bindPopup(popup_dd63eb0234f84f999aed925e2f4f8e36)
+        ;
+
+        
+    
+    
+            var marker_4f9be56e1c444f8a8db80653afdcb93b = L.marker(
+                [23.73015, 120.56408],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_ac0ac785c01f4cd8b383e5b404fb3e92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56536a05425b47c7b28b9f44f5f03773 = $(`<div id="html_56536a05425b47c7b28b9f44f5f03773" style="width: 100.0%; height: 100.0%;">斗六市雲科路二段與科班路路口(158縣道43.7K)</div>`)[0];
+            popup_ac0ac785c01f4cd8b383e5b404fb3e92.setContent(html_56536a05425b47c7b28b9f44f5f03773);
+        
+
+        marker_4f9be56e1c444f8a8db80653afdcb93b.bindPopup(popup_ac0ac785c01f4cd8b383e5b404fb3e92)
+        ;
+
+        
+    
+    
+            var marker_6d76b42aef1a404c9fc5b55c6fee6b33 = L.marker(
+                [23.717222, 120.568954],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_6d1ffbf8184f4c5782fb8a5da69bcda6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cb639a63438496a949f13b8995be844 = $(`<div id="html_9cb639a63438496a949f13b8995be844" style="width: 100.0%; height: 100.0%;">台3線公路248k+970m處</div>`)[0];
+            popup_6d1ffbf8184f4c5782fb8a5da69bcda6.setContent(html_9cb639a63438496a949f13b8995be844);
+        
+
+        marker_6d76b42aef1a404c9fc5b55c6fee6b33.bindPopup(popup_6d1ffbf8184f4c5782fb8a5da69bcda6)
+        ;
+
+        
+    
+    
+            var marker_a010aefea036420c8708e3537aa75a76 = L.marker(
+                [23.673025, 120.45189],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_13529e47c9b4499982f98c70ad0df3e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f3f543f10a04d63b243bd3175a3af23 = $(`<div id="html_9f3f543f10a04d63b243bd3175a3af23" style="width: 100.0%; height: 100.0%;">台78線快速公路29k+400m處(西向東)</div>`)[0];
+            popup_13529e47c9b4499982f98c70ad0df3e7.setContent(html_9f3f543f10a04d63b243bd3175a3af23);
+        
+
+        marker_a010aefea036420c8708e3537aa75a76.bindPopup(popup_13529e47c9b4499982f98c70ad0df3e7)
+        ;
+
+        
+    
+    
+            var marker_67ff9d6f76d74b69a61b37bff6b7ffe4 = L.marker(
+                [23.67321, 120.45193],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_dd665de67e3b4b518cb30fc7fe357670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2bc76c942af4e0495450c1a6092dceb = $(`<div id="html_b2bc76c942af4e0495450c1a6092dceb" style="width: 100.0%; height: 100.0%;">台78線快速公路29k+400m處(東向西)</div>`)[0];
+            popup_dd665de67e3b4b518cb30fc7fe357670.setContent(html_b2bc76c942af4e0495450c1a6092dceb);
+        
+
+        marker_67ff9d6f76d74b69a61b37bff6b7ffe4.bindPopup(popup_dd665de67e3b4b518cb30fc7fe357670)
+        ;
+
+        
+    
+    
+            var marker_c88ec414ec8c44f8929505e538083b01 = L.marker(
+                [23.679546, 120.480835],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_b4d968d952e24cd2b63daa7b4b10aaa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f16e57214ea4979bacdaa50b41446f0 = $(`<div id="html_6f16e57214ea4979bacdaa50b41446f0" style="width: 100.0%; height: 100.0%;">台1線公路與文昌路口(南向北)</div>`)[0];
+            popup_b4d968d952e24cd2b63daa7b4b10aaa3.setContent(html_6f16e57214ea4979bacdaa50b41446f0);
+        
+
+        marker_c88ec414ec8c44f8929505e538083b01.bindPopup(popup_b4d968d952e24cd2b63daa7b4b10aaa3)
+        ;
+
+        
+    
+    
+            var marker_5ad9f912c9bc4ee5ba88eedb01b41354 = L.marker(
+                [23.68034, 120.48086],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_ad195faca5624ffe917bd6f6c362da1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d461e172fb048319af1f9711bf9a03d = $(`<div id="html_0d461e172fb048319af1f9711bf9a03d" style="width: 100.0%; height: 100.0%;">台1線公路與文昌路口(北向南)</div>`)[0];
+            popup_ad195faca5624ffe917bd6f6c362da1c.setContent(html_0d461e172fb048319af1f9711bf9a03d);
+        
+
+        marker_5ad9f912c9bc4ee5ba88eedb01b41354.bindPopup(popup_ad195faca5624ffe917bd6f6c362da1c)
+        ;
+
+        
+    
+    
+            var marker_0c105663923846f79109a67c96f120db = L.marker(
+                [23.68357, 120.49234],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_f97c16721f3a4a4aa5207e02eeb876a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_091789bf00f54dc3a37e369a6b9e0bd3 = $(`<div id="html_091789bf00f54dc3a37e369a6b9e0bd3" style="width: 100.0%; height: 100.0%;">斗南鎮台1丁線12k+800m(新光陸橋-斗南往斗六)</div>`)[0];
+            popup_f97c16721f3a4a4aa5207e02eeb876a3.setContent(html_091789bf00f54dc3a37e369a6b9e0bd3);
+        
+
+        marker_0c105663923846f79109a67c96f120db.bindPopup(popup_f97c16721f3a4a4aa5207e02eeb876a3)
+        ;
+
+        
+    
+    
+            var marker_316a618e47a44e2b80ba56c3809dee8d = L.marker(
+                [23.683113, 120.49306],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_366139e068da450c9e15d1087e23d540 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abaa224a25d04d44abbda14298715a4d = $(`<div id="html_abaa224a25d04d44abbda14298715a4d" style="width: 100.0%; height: 100.0%;">斗南鎮新生二路東明橋北端</div>`)[0];
+            popup_366139e068da450c9e15d1087e23d540.setContent(html_abaa224a25d04d44abbda14298715a4d);
+        
+
+        marker_316a618e47a44e2b80ba56c3809dee8d.bindPopup(popup_366139e068da450c9e15d1087e23d540)
+        ;
+
+        
+    
+    
+            var marker_6b785c3aa9614e68a584e7c38a78a777 = L.marker(
+                [23.683903, 120.49349],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_d4880090084f4dc69f39782610d409e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27ec822d4d854b63badd333d40ddbfb8 = $(`<div id="html_27ec822d4d854b63badd333d40ddbfb8" style="width: 100.0%; height: 100.0%;">斗南鎮台1丁線12k+700m(新光陸橋東側-斗六往斗南)</div>`)[0];
+            popup_d4880090084f4dc69f39782610d409e1.setContent(html_27ec822d4d854b63badd333d40ddbfb8);
+        
+
+        marker_6b785c3aa9614e68a584e7c38a78a777.bindPopup(popup_d4880090084f4dc69f39782610d409e1)
+        ;
+
+        
+    
+    
+            var marker_ebcdfffcff224b92af877fe706ea4106 = L.marker(
+                [23.736464, 120.396],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_2975e2994ed64d94bfc0c0f92d92a65e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d176e597e8c44e95a58258bb04005100 = $(`<div id="html_d176e597e8c44e95a58258bb04005100" style="width: 100.0%; height: 100.0%;">科虎三路18號(元翎科技公司)</div>`)[0];
+            popup_2975e2994ed64d94bfc0c0f92d92a65e.setContent(html_d176e597e8c44e95a58258bb04005100);
+        
+
+        marker_ebcdfffcff224b92af877fe706ea4106.bindPopup(popup_2975e2994ed64d94bfc0c0f92d92a65e)
+        ;
+
+        
+    
+    
+            var marker_12a6d31582874c6692f0cd2984a2090b = L.marker(
+                [23.719143, 120.43605],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_588ab8ae2d6148b09dc7cae8742b5e65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55d18c05248c41db88bec5b4f14f15e8 = $(`<div id="html_55d18c05248c41db88bec5b4f14f15e8" style="width: 100.0%; height: 100.0%;">158縣道與博愛路口</div>`)[0];
+            popup_588ab8ae2d6148b09dc7cae8742b5e65.setContent(html_55d18c05248c41db88bec5b4f14f15e8);
+        
+
+        marker_12a6d31582874c6692f0cd2984a2090b.bindPopup(popup_588ab8ae2d6148b09dc7cae8742b5e65)
+        ;
+
+        
+    
+    
+            var marker_7c032742baf34be4a46ac8b83bc5a675 = L.marker(
+                [23.717178, 120.44133],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_1c17bfa22bcf4d3897185dc6cd66e16c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb1bd381e6fb4bcbbae8d9ace0f873f3 = $(`<div id="html_fb1bd381e6fb4bcbbae8d9ace0f873f3" style="width: 100.0%; height: 100.0%;">158縣道與林森路一段路口</div>`)[0];
+            popup_1c17bfa22bcf4d3897185dc6cd66e16c.setContent(html_fb1bd381e6fb4bcbbae8d9ace0f873f3);
+        
+
+        marker_7c032742baf34be4a46ac8b83bc5a675.bindPopup(popup_1c17bfa22bcf4d3897185dc6cd66e16c)
+        ;
+
+        
+    
+    
+            var marker_902930808f984137bc6c7b6dde3987b1 = L.marker(
+                [23.735708, 120.458275],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_23269613b45b4c36b3a517193ee4cd09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f952660d4c5547a6b4f123eb34b246ce = $(`<div id="html_f952660d4c5547a6b4f123eb34b246ce" style="width: 100.0%; height: 100.0%;">145乙縣道與雲71線路口前(東向西)</div>`)[0];
+            popup_23269613b45b4c36b3a517193ee4cd09.setContent(html_f952660d4c5547a6b4f123eb34b246ce);
+        
+
+        marker_902930808f984137bc6c7b6dde3987b1.bindPopup(popup_23269613b45b4c36b3a517193ee4cd09)
+        ;
+
+        
+    
+    
+            var marker_b16c7e8ac31b454e9d427719f40ed8c9 = L.marker(
+                [23.728313, 120.488914],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_6fda63b04457418f84cc15cd61a5d2da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3da27f213872433da0ffd65691ed29cc = $(`<div id="html_3da27f213872433da0ffd65691ed29cc" style="width: 100.0%; height: 100.0%;">台1線公路與雲74線路口(惠來派出所前)</div>`)[0];
+            popup_6fda63b04457418f84cc15cd61a5d2da.setContent(html_3da27f213872433da0ffd65691ed29cc);
+        
+
+        marker_b16c7e8ac31b454e9d427719f40ed8c9.bindPopup(popup_6fda63b04457418f84cc15cd61a5d2da)
+        ;
+
+        
+    
+    
+            var marker_5f6bc8efecdd4c35a22b81ca2687e208 = L.marker(
+                [23.785646, 120.43022],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_cdb8b735b2d34e81985b22ac863cb51d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f4638e3124f4afa8bb30f4cc9ab1e60 = $(`<div id="html_5f4638e3124f4afa8bb30f4cc9ab1e60" style="width: 100.0%; height: 100.0%;">154甲縣道1k處(高鐵橋下)</div>`)[0];
+            popup_cdb8b735b2d34e81985b22ac863cb51d.setContent(html_5f4638e3124f4afa8bb30f4cc9ab1e60);
+        
+
+        marker_5f6bc8efecdd4c35a22b81ca2687e208.bindPopup(popup_cdb8b735b2d34e81985b22ac863cb51d)
+        ;
+
+        
+    
+    
+            var marker_35a981a1a16f4433b1cc3055df3ba4ad = L.marker(
+                [23.778845, 120.44506],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_a49c98e23b684c3aae889ca95093e48d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0671d4ee232f4d1084e2e4abe2af8432 = $(`<div id="html_0671d4ee232f4d1084e2e4abe2af8432" style="width: 100.0%; height: 100.0%;">145縣道與福來路20巷路口(12.6k處-北向)</div>`)[0];
+            popup_a49c98e23b684c3aae889ca95093e48d.setContent(html_0671d4ee232f4d1084e2e4abe2af8432);
+        
+
+        marker_35a981a1a16f4433b1cc3055df3ba4ad.bindPopup(popup_a49c98e23b684c3aae889ca95093e48d)
+        ;
+
+        
+    
+    
+            var marker_faf921317c5c4fa88a9724bf1be99654 = L.marker(
+                [23.790655, 120.47047],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_750e4ba663a74caabec32458ce3430f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6d1ca561e07487b8c2def5208275a33 = $(`<div id="html_c6d1ca561e07487b8c2def5208275a33" style="width: 100.0%; height: 100.0%;">台1線公路與振興路口(北向南)</div>`)[0];
+            popup_750e4ba663a74caabec32458ce3430f1.setContent(html_c6d1ca561e07487b8c2def5208275a33);
+        
+
+        marker_faf921317c5c4fa88a9724bf1be99654.bindPopup(popup_750e4ba663a74caabec32458ce3430f1)
+        ;
+
+        
+    
+    
+            var marker_db0d9ac5113243949ca185243676aead = L.marker(
+                [23.79007, 120.47076],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_01d73ac3f4d64a33b21d4381b66e7d41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aebead95cfa4ca58c5e003ecd73b236 = $(`<div id="html_5aebead95cfa4ca58c5e003ecd73b236" style="width: 100.0%; height: 100.0%;">台1線公路與振興路口(南向北)</div>`)[0];
+            popup_01d73ac3f4d64a33b21d4381b66e7d41.setContent(html_5aebead95cfa4ca58c5e003ecd73b236);
+        
+
+        marker_db0d9ac5113243949ca185243676aead.bindPopup(popup_01d73ac3f4d64a33b21d4381b66e7d41)
+        ;
+
+        
+    
+    
+            var marker_52c8f10de964466fa51c2dc7318490e3 = L.marker(
+                [23.701073, 120.35221],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_4df05d82529e47ba88d6a06b68f25a08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d05309248214ef7a290194a19a07f80 = $(`<div id="html_7d05309248214ef7a290194a19a07f80" style="width: 100.0%; height: 100.0%;">158縣道18k處</div>`)[0];
+            popup_4df05d82529e47ba88d6a06b68f25a08.setContent(html_7d05309248214ef7a290194a19a07f80);
+        
+
+        marker_52c8f10de964466fa51c2dc7318490e3.bindPopup(popup_4df05d82529e47ba88d6a06b68f25a08)
+        ;
+
+        
+    
+    
+            var marker_549a5ae81ab54f72b2b56b60ec2d0e51 = L.marker(
+                [23.670492, 120.38855],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_fd545b19f15644b18ee445d211f33440 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69c6e41e075c4a7590001217c4d9544b = $(`<div id="html_69c6e41e075c4a7590001217c4d9544b" style="width: 100.0%; height: 100.0%;">145縣道29k處(土庫外環道)</div>`)[0];
+            popup_fd545b19f15644b18ee445d211f33440.setContent(html_69c6e41e075c4a7590001217c4d9544b);
+        
+
+        marker_549a5ae81ab54f72b2b56b60ec2d0e51.bindPopup(popup_fd545b19f15644b18ee445d211f33440)
+        ;
+
+        
+    
+    
+            var marker_49e398eceb81412b989b219e55bed103 = L.marker(
+                [23.567465, 120.2824],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_784e9bb12bae40d2b5e72e81af411e5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb2844b79af84803b3eb9b17913f9eec = $(`<div id="html_eb2844b79af84803b3eb9b17913f9eec" style="width: 100.0%; height: 100.0%;">164縣道14k+800m處(扶朝段)</div>`)[0];
+            popup_784e9bb12bae40d2b5e72e81af411e5d.setContent(html_eb2844b79af84803b3eb9b17913f9eec);
+        
+
+        marker_49e398eceb81412b989b219e55bed103.bindPopup(popup_784e9bb12bae40d2b5e72e81af411e5d)
+        ;
+
+        
+    
+    
+            var marker_876e6dbaf607485095026f78c65b41f7 = L.marker(
+                [23.583763, 120.2994],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_6b307939b88a4577b3b80a22372ea020 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d23e3018898483a952c5ef466bc81ed = $(`<div id="html_5d23e3018898483a952c5ef466bc81ed" style="width: 100.0%; height: 100.0%;">台19線公路與145線道路口</div>`)[0];
+            popup_6b307939b88a4577b3b80a22372ea020.setContent(html_5d23e3018898483a952c5ef466bc81ed);
+        
+
+        marker_876e6dbaf607485095026f78c65b41f7.bindPopup(popup_6b307939b88a4577b3b80a22372ea020)
+        ;
+
+        
+    
+    
+            var marker_27de3ff2b04543daa8d224dc5b9a6db1 = L.marker(
+                [23.596136, 120.32356],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_3aef260f3ee24b21a39f8550e522f850 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3049fbe392e14c76a873036ed0ee07eb = $(`<div id="html_3049fbe392e14c76a873036ed0ee07eb" style="width: 100.0%; height: 100.0%;">北港鎮145縣道40k+750m處</div>`)[0];
+            popup_3aef260f3ee24b21a39f8550e522f850.setContent(html_3049fbe392e14c76a873036ed0ee07eb);
+        
+
+        marker_27de3ff2b04543daa8d224dc5b9a6db1.bindPopup(popup_3aef260f3ee24b21a39f8550e522f850)
+        ;
+
+        
+    
+    
+            var marker_9e155cd7f5c244dc9058f3fa1778eb67 = L.marker(
+                [23.658314, 120.45549],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_f63b4adc94434766a3d02c50e7bc7ffc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5176150bc964a02936be4f70084f5d4 = $(`<div id="html_e5176150bc964a02936be4f70084f5d4" style="width: 100.0%; height: 100.0%;">大埤鄉157線公路2k+130m</div>`)[0];
+            popup_f63b4adc94434766a3d02c50e7bc7ffc.setContent(html_e5176150bc964a02936be4f70084f5d4);
+        
+
+        marker_9e155cd7f5c244dc9058f3fa1778eb67.bindPopup(popup_f63b4adc94434766a3d02c50e7bc7ffc)
+        ;
+
+        
+    
+    
+            var marker_1f0e4e8c4faf44c5b6815ff1cdb5e27f = L.marker(
+                [23.63372, 120.46827],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_3a91a3bb10aa4f53ac27f04e9c44b17e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_104a9ab84e0b43a89d07bcc60123f7bd = $(`<div id="html_104a9ab84e0b43a89d07bcc60123f7bd" style="width: 100.0%; height: 100.0%;">台1線公路247k+500m處(豐田段)</div>`)[0];
+            popup_3a91a3bb10aa4f53ac27f04e9c44b17e.setContent(html_104a9ab84e0b43a89d07bcc60123f7bd);
+        
+
+        marker_1f0e4e8c4faf44c5b6815ff1cdb5e27f.bindPopup(popup_3a91a3bb10aa4f53ac27f04e9c44b17e)
+        ;
+
+        
+    
+    
+            var marker_e5e051b9811444bab52b52aa293d8a55 = L.marker(
+                [23.639185, 120.46946],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_2fcdad5aff3247d6956d09c4b2a6cc15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_979f02451a4d42d88a234ab65de03956 = $(`<div id="html_979f02451a4d42d88a234ab65de03956" style="width: 100.0%; height: 100.0%;">台1線公路246k+400m處(豐田段)</div>`)[0];
+            popup_2fcdad5aff3247d6956d09c4b2a6cc15.setContent(html_979f02451a4d42d88a234ab65de03956);
+        
+
+        marker_e5e051b9811444bab52b52aa293d8a55.bindPopup(popup_2fcdad5aff3247d6956d09c4b2a6cc15)
+        ;
+
+        
+    
+    
+            var marker_6b931ead26364778b0ceef04d3273251 = L.marker(
+                [23.742592, 120.494446],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_c39a3811d9f24db3bb5529ca5ca913e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d982765b6c743faa9e167c7677d2f9b = $(`<div id="html_3d982765b6c743faa9e167c7677d2f9b" style="width: 100.0%; height: 100.0%;">台1線公路235k+592m處</div>`)[0];
+            popup_c39a3811d9f24db3bb5529ca5ca913e1.setContent(html_3d982765b6c743faa9e167c7677d2f9b);
+        
+
+        marker_6b931ead26364778b0ceef04d3273251.bindPopup(popup_c39a3811d9f24db3bb5529ca5ca913e1)
+        ;
+
+        
+    
+    
+            var marker_231cf3ccc03d4aa8a4541874332c2235 = L.marker(
+                [23.75775, 120.49677],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_8c1ea8236108408f950347204af5ef82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52837c707cd741458c204a4139326220 = $(`<div id="html_52837c707cd741458c204a4139326220" style="width: 100.0%; height: 100.0%;">台1線公路與中正路口</div>`)[0];
+            popup_8c1ea8236108408f950347204af5ef82.setContent(html_52837c707cd741458c204a4139326220);
+        
+
+        marker_231cf3ccc03d4aa8a4541874332c2235.bindPopup(popup_8c1ea8236108408f950347204af5ef82)
+        ;
+
+        
+    
+    
+            var marker_90d6b0e33aad4838a34cbb7071ead636 = L.marker(
+                [23.766708, 120.506424],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_7531148b8009429a9cdaddce911c424f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6865249c26d4dd1999f01941fb98735 = $(`<div id="html_a6865249c26d4dd1999f01941fb98735" style="width: 100.0%; height: 100.0%;">156縣道與莿桐外環道(孩沙里)路口</div>`)[0];
+            popup_7531148b8009429a9cdaddce911c424f.setContent(html_a6865249c26d4dd1999f01941fb98735);
+        
+
+        marker_90d6b0e33aad4838a34cbb7071ead636.bindPopup(popup_7531148b8009429a9cdaddce911c424f)
+        ;
+
+        
+    
+    
+            var marker_88629282add04f0c92044e4c4f12fea5 = L.marker(
+                [23.750402, 120.508675],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_4b56799de3db4cc8848e237c9aba7aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0ef045ca79b499e8adedc8a9bed4568 = $(`<div id="html_a0ef045ca79b499e8adedc8a9bed4568" style="width: 100.0%; height: 100.0%;">台1丁線公路與農校路口</div>`)[0];
+            popup_4b56799de3db4cc8848e237c9aba7aa4.setContent(html_a0ef045ca79b499e8adedc8a9bed4568);
+        
+
+        marker_88629282add04f0c92044e4c4f12fea5.bindPopup(popup_4b56799de3db4cc8848e237c9aba7aa4)
+        ;
+
+        
+    
+    
+            var marker_170dd058ab774688965801ca3902919e = L.marker(
+                [23.770504, 120.644],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_2765d7e64d054373808ac77db948a714 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ca0377dd0c74f29a6c01088ef7cf955 = $(`<div id="html_3ca0377dd0c74f29a6c01088ef7cf955" style="width: 100.0%; height: 100.0%;">台3線公路238k+268m處</div>`)[0];
+            popup_2765d7e64d054373808ac77db948a714.setContent(html_3ca0377dd0c74f29a6c01088ef7cf955);
+        
+
+        marker_170dd058ab774688965801ca3902919e.bindPopup(popup_2765d7e64d054373808ac77db948a714)
+        ;
+
+        
+    
+    
+            var marker_d854f9c3a0024c0780c6e95dd1ad84b6 = L.marker(
+                [23.800879, 120.38286],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_edde9894777643bdba9f7f902607bc7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_483b769ea46f4701a31bdb252778ce24 = $(`<div id="html_483b769ea46f4701a31bdb252778ce24" style="width: 100.0%; height: 100.0%;">二崙鄉台19線公路40km+200m</div>`)[0];
+            popup_edde9894777643bdba9f7f902607bc7c.setContent(html_483b769ea46f4701a31bdb252778ce24);
+        
+
+        marker_d854f9c3a0024c0780c6e95dd1ad84b6.bindPopup(popup_edde9894777643bdba9f7f902607bc7c)
+        ;
+
+        
+    
+    
+            var marker_128853ee5ccb46ef919714df036d4b72 = L.marker(
+                [23.767534, 120.33265],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_b540ed6f62f74f9293a8edde740cdd1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c47c63dad564c7ea8c11c2f31d63a8d = $(`<div id="html_8c47c63dad564c7ea8c11c2f31d63a8d" style="width: 100.0%; height: 100.0%;">崙背鄉156縣道7k+700m</div>`)[0];
+            popup_b540ed6f62f74f9293a8edde740cdd1d.setContent(html_8c47c63dad564c7ea8c11c2f31d63a8d);
+        
+
+        marker_128853ee5ccb46ef919714df036d4b72.bindPopup(popup_b540ed6f62f74f9293a8edde740cdd1d)
+        ;
+
+        
+    
+    
+            var marker_56482901512b4a0dbe090e371cd5e5f7 = L.marker(
+                [23.77376, 120.22894],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_6003954ee6314d66a2636654efabaaff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2a6bfd3e91b456a81b0bd61bbc0e9c3 = $(`<div id="html_d2a6bfd3e91b456a81b0bd61bbc0e9c3" style="width: 100.0%; height: 100.0%;">雲3線海豐村忠和路131號前</div>`)[0];
+            popup_6003954ee6314d66a2636654efabaaff.setContent(html_d2a6bfd3e91b456a81b0bd61bbc0e9c3);
+        
+
+        marker_56482901512b4a0dbe090e371cd5e5f7.bindPopup(popup_6003954ee6314d66a2636654efabaaff)
+        ;
+
+        
+    
+    
+            var marker_ad18a70febaf41f0bdc62a5700ac464a = L.marker(
+                [23.792048, 120.2346],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_1a8c967a8f8c456587a13c6804ffca23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c734b670bc634ac79d4652fc4d6405f8 = $(`<div id="html_c734b670bc634ac79d4652fc4d6405f8" style="width: 100.0%; height: 100.0%;">工業路與雲3號路口(西向東)</div>`)[0];
+            popup_1a8c967a8f8c456587a13c6804ffca23.setContent(html_c734b670bc634ac79d4652fc4d6405f8);
+        
+
+        marker_ad18a70febaf41f0bdc62a5700ac464a.bindPopup(popup_1a8c967a8f8c456587a13c6804ffca23)
+        ;
+
+        
+    
+    
+            var marker_a55aa177401741148e2f4113b86bf857 = L.marker(
+                [23.79157, 120.23678],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_9331690dddad45a1a9b9f22b4d1982fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72034e7286d74f8e90e5095c5fd3d77e = $(`<div id="html_72034e7286d74f8e90e5095c5fd3d77e" style="width: 100.0%; height: 100.0%;">工業路與4k+500m處路口</div>`)[0];
+            popup_9331690dddad45a1a9b9f22b4d1982fc.setContent(html_72034e7286d74f8e90e5095c5fd3d77e);
+        
+
+        marker_a55aa177401741148e2f4113b86bf857.bindPopup(popup_9331690dddad45a1a9b9f22b4d1982fc)
+        ;
+
+        
+    
+    
+            var marker_e9fcc01295e04645886b51675c74ea03 = L.marker(
+                [23.788769, 120.271],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_39e057ec5ca64197a269a308149ba4d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58bbfb5907704b5da629c0ea67dd6f33 = $(`<div id="html_58bbfb5907704b5da629c0ea67dd6f33" style="width: 100.0%; height: 100.0%;">台17線公路與工業路口</div>`)[0];
+            popup_39e057ec5ca64197a269a308149ba4d9.setContent(html_58bbfb5907704b5da629c0ea67dd6f33);
+        
+
+        marker_e9fcc01295e04645886b51675c74ea03.bindPopup(popup_39e057ec5ca64197a269a308149ba4d9)
+        ;
+
+        
+    
+    
+            var marker_d46a1d9726cf435b9fb5353a605a6a81 = L.marker(
+                [23.796333, 120.278656],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_d27f7776af8342528d0fe8f8c9f2c9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7674292fbbf463baac60533363d0308 = $(`<div id="html_a7674292fbbf463baac60533363d0308" style="width: 100.0%; height: 100.0%;">台17線公路與154縣道路口(橋頭)</div>`)[0];
+            popup_d27f7776af8342528d0fe8f8c9f2c9e7.setContent(html_a7674292fbbf463baac60533363d0308);
+        
+
+        marker_d46a1d9726cf435b9fb5353a605a6a81.bindPopup(popup_d27f7776af8342528d0fe8f8c9f2c9e7)
+        ;
+
+        
+    
+    
+            var marker_10efd84a4ade4a639168272f1b34a690 = L.marker(
+                [23.655548, 120.24066],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_f76a17d0fbef41e3961c1ca3dee61069 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29e0e3856385424d9785af42ac0e9dd7 = $(`<div id="html_29e0e3856385424d9785af42ac0e9dd7" style="width: 100.0%; height: 100.0%;">雲113公路湖東橋前路段</div>`)[0];
+            popup_f76a17d0fbef41e3961c1ca3dee61069.setContent(html_29e0e3856385424d9785af42ac0e9dd7);
+        
+
+        marker_10efd84a4ade4a639168272f1b34a690.bindPopup(popup_f76a17d0fbef41e3961c1ca3dee61069)
+        ;
+
+        
+    
+    
+            var marker_41bfd5783eff43d3b614c733c8687cba = L.marker(
+                [23.721405, 120.253296],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_d01747075486442787ecbd5b70529542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ba85cdaee9c4563a7671a5de16193b9 = $(`<div id="html_8ba85cdaee9c4563a7671a5de16193b9" style="width: 100.0%; height: 100.0%;">新坤路與158甲縣道路口</div>`)[0];
+            popup_d01747075486442787ecbd5b70529542.setContent(html_8ba85cdaee9c4563a7671a5de16193b9);
+        
+
+        marker_41bfd5783eff43d3b614c733c8687cba.bindPopup(popup_d01747075486442787ecbd5b70529542)
+        ;
+
+        
+    
+    
+            var marker_7c0d2a2fd68341cdac829f657147b3a6 = L.marker(
+                [23.738638, 120.25528],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_d01547d9fd384531a022499afdc98ced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba1cc0a9591045b6995d4728b877e703 = $(`<div id="html_ba1cc0a9591045b6995d4728b877e703" style="width: 100.0%; height: 100.0%;">153縣道1k處</div>`)[0];
+            popup_d01547d9fd384531a022499afdc98ced.setContent(html_ba1cc0a9591045b6995d4728b877e703);
+        
+
+        marker_7c0d2a2fd68341cdac829f657147b3a6.bindPopup(popup_d01547d9fd384531a022499afdc98ced)
+        ;
+
+        
+    
+    
+            var marker_4caf784ad049472b92f02afbb5bb7dbe = L.marker(
+                [23.721605, 120.25655],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_fddb57195b5b4344a06e28716a3a9a2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1ecf8d5d3a84c6cb2ffe7bf51b1c6dd = $(`<div id="html_a1ecf8d5d3a84c6cb2ffe7bf51b1c6dd" style="width: 100.0%; height: 100.0%;">東勢鄉153縣道與158甲縣道路口</div>`)[0];
+            popup_fddb57195b5b4344a06e28716a3a9a2c.setContent(html_a1ecf8d5d3a84c6cb2ffe7bf51b1c6dd);
+        
+
+        marker_4caf784ad049472b92f02afbb5bb7dbe.bindPopup(popup_fddb57195b5b4344a06e28716a3a9a2c)
+        ;
+
+        
+    
+    
+            var marker_8ed29e3ac007487db180373b21670420 = L.marker(
+                [23.720882, 120.25662],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_77ab2189068547edb8eb8ec3272682da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd2347be10bf499a83097330eb3d7b91 = $(`<div id="html_dd2347be10bf499a83097330eb3d7b91" style="width: 100.0%; height: 100.0%;">153線與158甲線縣道路口</div>`)[0];
+            popup_77ab2189068547edb8eb8ec3272682da.setContent(html_dd2347be10bf499a83097330eb3d7b91);
+        
+
+        marker_8ed29e3ac007487db180373b21670420.bindPopup(popup_77ab2189068547edb8eb8ec3272682da)
+        ;
+
+        
+    
+    
+            var marker_f6a375005f144e0ba94fd6cdcfd1214e = L.marker(
+                [23.665485, 120.25901],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_f61db9289c9a4f73a05925b6a7116060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11030584472641b19a9ebccaa8955fd1 = $(`<div id="html_11030584472641b19a9ebccaa8955fd1" style="width: 100.0%; height: 100.0%;">153縣道嘉勝路與守密街路口(南向)</div>`)[0];
+            popup_f61db9289c9a4f73a05925b6a7116060.setContent(html_11030584472641b19a9ebccaa8955fd1);
+        
+
+        marker_f6a375005f144e0ba94fd6cdcfd1214e.bindPopup(popup_f61db9289c9a4f73a05925b6a7116060)
+        ;
+
+        
+    
+    
+            var marker_c4ad2e9076ad49a48d60903bdf94a884 = L.marker(
+                [23.684862, 120.30067],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_49f80e594e0341a8bce76986d213fc55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42c940eee164bb9a519727888b2ce29 = $(`<div id="html_c42c940eee164bb9a519727888b2ce29" style="width: 100.0%; height: 100.0%;">台78線快速公路13k處(西向東)</div>`)[0];
+            popup_49f80e594e0341a8bce76986d213fc55.setContent(html_c42c940eee164bb9a519727888b2ce29);
+        
+
+        marker_c4ad2e9076ad49a48d60903bdf94a884.bindPopup(popup_49f80e594e0341a8bce76986d213fc55)
+        ;
+
+        
+    
+    
+            var marker_ba1e0004c93e4c66a7b608af4890314b = L.marker(
+                [23.685007, 120.3066],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_ae923c78c4a541039655bc92353af7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_589d3e21420c4ff3b9d0f9cab2da96f4 = $(`<div id="html_589d3e21420c4ff3b9d0f9cab2da96f4" style="width: 100.0%; height: 100.0%;">台78線快速公路13k處(東向西)</div>`)[0];
+            popup_ae923c78c4a541039655bc92353af7d8.setContent(html_589d3e21420c4ff3b9d0f9cab2da96f4);
+        
+
+        marker_ba1e0004c93e4c66a7b608af4890314b.bindPopup(popup_ae923c78c4a541039655bc92353af7d8)
+        ;
+
+        
+    
+    
+            var marker_221a629b90e14b4fbea6ac7369c4b505 = L.marker(
+                [23.69827, 120.32407],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_84be1b99f37344acbc176de76e5a64a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad63c28560c542acb3f7bd742b442342 = $(`<div id="html_ad63c28560c542acb3f7bd742b442342" style="width: 100.0%; height: 100.0%;">台19線公路與158縣道路口</div>`)[0];
+            popup_84be1b99f37344acbc176de76e5a64a2.setContent(html_ad63c28560c542acb3f7bd742b442342);
+        
+
+        marker_221a629b90e14b4fbea6ac7369c4b505.bindPopup(popup_84be1b99f37344acbc176de76e5a64a2)
+        ;
+
+        
+    
+    
+            var marker_8d333fd9c56246579106b7c5889e05ef = L.marker(
+                [23.708206, 120.324425],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_f89bb5358ced4ccca19e03e934464fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f7f8a63457741e28454ed8882902992 = $(`<div id="html_3f7f8a63457741e28454ed8882902992" style="width: 100.0%; height: 100.0%;">台19線公路53k+500m處</div>`)[0];
+            popup_f89bb5358ced4ccca19e03e934464fc3.setContent(html_3f7f8a63457741e28454ed8882902992);
+        
+
+        marker_8d333fd9c56246579106b7c5889e05ef.bindPopup(popup_f89bb5358ced4ccca19e03e934464fc3)
+        ;
+
+        
+    
+    
+            var marker_ea6fa5f0299b4a51be80e3ab1088094a = L.marker(
+                [23.703785, 120.20016],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_6f33e85868564cd4b61e6d350c10d6d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8edc6572aa514e7a96b3e6cc8c119df5 = $(`<div id="html_8edc6572aa514e7a96b3e6cc8c119df5" style="width: 100.0%; height: 100.0%;">155縣道民權路47-8號前</div>`)[0];
+            popup_6f33e85868564cd4b61e6d350c10d6d9.setContent(html_8edc6572aa514e7a96b3e6cc8c119df5);
+        
+
+        marker_ea6fa5f0299b4a51be80e3ab1088094a.bindPopup(popup_6f33e85868564cd4b61e6d350c10d6d9)
+        ;
+
+        
+    
+    
+            var marker_e83b57cfcd2b41099904d054308ad46c = L.marker(
+                [23.669996, 120.20882],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_28797337f39e45ce8b18f48f65075600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f96f39d9ee343c699c924c9a8b01dc3 = $(`<div id="html_9f96f39d9ee343c699c924c9a8b01dc3" style="width: 100.0%; height: 100.0%;">155縣道4k+800m處</div>`)[0];
+            popup_28797337f39e45ce8b18f48f65075600.setContent(html_9f96f39d9ee343c699c924c9a8b01dc3);
+        
+
+        marker_e83b57cfcd2b41099904d054308ad46c.bindPopup(popup_28797337f39e45ce8b18f48f65075600)
+        ;
+
+        
+    
+    
+            var marker_3a4d2ed590df47e18890404e0a120bb8 = L.marker(
+                [23.727283, 120.220314],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_ace1ef40af86448b8744671a8b35f8df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c39a4d21018d4b568956b33f598458b0 = $(`<div id="html_c39a4d21018d4b568956b33f598458b0" style="width: 100.0%; height: 100.0%;">臺西鄉台61線快速道路226K+850m</div>`)[0];
+            popup_ace1ef40af86448b8744671a8b35f8df.setContent(html_c39a4d21018d4b568956b33f598458b0);
+        
+
+        marker_3a4d2ed590df47e18890404e0a120bb8.bindPopup(popup_ace1ef40af86448b8744671a8b35f8df)
+        ;
+
+        
+    
+    
+            var marker_22dcffacc9814a4a915c96a69f412652 = L.marker(
+                [23.611443, 120.30748],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_2102b5a156fc41e08c2cd4e614158501 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9140cb6185742388edaafa3c0df8394 = $(`<div id="html_a9140cb6185742388edaafa3c0df8394" style="width: 100.0%; height: 100.0%;">元長鄉台19線64k+450m</div>`)[0];
+            popup_2102b5a156fc41e08c2cd4e614158501.setContent(html_a9140cb6185742388edaafa3c0df8394);
+        
+
+        marker_22dcffacc9814a4a915c96a69f412652.bindPopup(popup_2102b5a156fc41e08c2cd4e614158501)
+        ;
+
+        
+    
+    
+            var marker_ab36d50f0f0041009acaacd9f673a3a3 = L.marker(
+                [23.658632, 120.337105],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_415cbbe1d0854dd4912cf31dfda27793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae23799b0f1344019a69d36f13986701 = $(`<div id="html_ae23799b0f1344019a69d36f13986701" style="width: 100.0%; height: 100.0%;">160縣道20k+947m處(子茂段)</div>`)[0];
+            popup_415cbbe1d0854dd4912cf31dfda27793.setContent(html_ae23799b0f1344019a69d36f13986701);
+        
+
+        marker_ab36d50f0f0041009acaacd9f673a3a3.bindPopup(popup_415cbbe1d0854dd4912cf31dfda27793)
+        ;
+
+        
+    
+    
+            var marker_2edd4f1edf2749dda4c740000500e7b4 = L.marker(
+                [23.630302, 120.22754],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_0a0528928662413492b2f8dae3b90be7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a45c36bc6f34d68b3dad4acf5e8edf3 = $(`<div id="html_0a45c36bc6f34d68b3dad4acf5e8edf3" style="width: 100.0%; height: 100.0%;">155線四湖國中前</div>`)[0];
+            popup_0a0528928662413492b2f8dae3b90be7.setContent(html_0a45c36bc6f34d68b3dad4acf5e8edf3);
+        
+
+        marker_2edd4f1edf2749dda4c740000500e7b4.bindPopup(popup_0a0528928662413492b2f8dae3b90be7)
+        ;
+
+        
+    
+    
+            var marker_34755481d414425aab7b727871bf940d = L.marker(
+                [23.585243, 120.15164],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_25cb93466675448792f6e85fd897f0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512e887660064580bc5e7a11d9dbc19d = $(`<div id="html_512e887660064580bc5e7a11d9dbc19d" style="width: 100.0%; height: 100.0%;">口湖鄉台61線快速道路246K+100m</div>`)[0];
+            popup_25cb93466675448792f6e85fd897f0c4.setContent(html_512e887660064580bc5e7a11d9dbc19d);
+        
+
+        marker_34755481d414425aab7b727871bf940d.bindPopup(popup_25cb93466675448792f6e85fd897f0c4)
+        ;
+
+        
+    
+    
+            var marker_e0512a62e62f49159377a719749a0fa7 = L.marker(
+                [23.623926, 120.16689],
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+        var popup_9c4bd70f164f40f99961597eb62df34c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e83d683dbd3b41b69cfde1d5a4846f61 = $(`<div id="html_e83d683dbd3b41b69cfde1d5a4846f61" style="width: 100.0%; height: 100.0%;">台17線公路97k+842m處</div>`)[0];
+            popup_9c4bd70f164f40f99961597eb62df34c.setContent(html_e83d683dbd3b41b69cfde1d5a4846f61);
+        
+
+        marker_e0512a62e62f49159377a719749a0fa7.bindPopup(popup_9c4bd70f164f40f99961597eb62df34c)
+        ;
+
+        
+    
+    
+            var heat_map_0ee6095c90b04cd4b652f1ea756ae5a3 = L.heatLayer(
+                [[23.774952, 120.27286], [23.691448, 120.50823], [23.695944, 120.53308], [23.696798, 120.53748], [23.699762, 120.54649], [23.717327, 120.55062], [23.680202, 120.55256], [23.702805, 120.55346], [23.73015, 120.56408], [23.717222, 120.568954], [23.673025, 120.45189], [23.67321, 120.45193], [23.679546, 120.480835], [23.68034, 120.48086], [23.68357, 120.49234], [23.683113, 120.49306], [23.683903, 120.49349], [23.736464, 120.396], [23.719143, 120.43605], [23.717178, 120.44133], [23.735708, 120.458275], [23.728313, 120.488914], [23.785646, 120.43022], [23.778845, 120.44506], [23.790655, 120.47047], [23.79007, 120.47076], [23.701073, 120.35221], [23.670492, 120.38855], [23.567465, 120.2824], [23.583763, 120.2994], [23.596136, 120.32356], [23.658314, 120.45549], [23.63372, 120.46827], [23.639185, 120.46946], [23.742592, 120.494446], [23.75775, 120.49677], [23.766708, 120.506424], [23.750402, 120.508675], [23.770504, 120.644], [23.800879, 120.38286], [23.767534, 120.33265], [23.77376, 120.22894], [23.792048, 120.2346], [23.79157, 120.23678], [23.788769, 120.271], [23.796333, 120.278656], [23.655548, 120.24066], [23.721405, 120.253296], [23.738638, 120.25528], [23.721605, 120.25655], [23.720882, 120.25662], [23.665485, 120.25901], [23.684862, 120.30067], [23.685007, 120.3066], [23.69827, 120.32407], [23.708206, 120.324425], [23.703785, 120.20016], [23.669996, 120.20882], [23.727283, 120.220314], [23.611443, 120.30748], [23.658632, 120.337105], [23.630302, 120.22754], [23.585243, 120.15164], [23.623926, 120.16689]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+    
+            var feature_group_14029480f6c840f2a02312a46796ac05 = L.featureGroup(
+                {}
+            ).addTo(map_9f78ed2cb3c346f7afa9d6cb566466c8);
+        
+</script>
