@@ -6,6 +6,6 @@
 
 - 此網頁可以列出該資料所取得的台灣違規照相機設置位置。
 ### DEMO
-- https://asdkmm5050.github.io/NKUST110-1/
+- https://asdkmm5050.github.io/NKUST-110-1/
 
 
