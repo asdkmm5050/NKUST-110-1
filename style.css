@@ -1,0 +1,42 @@
+* {
+  font-family: Bakbak One;
+}
+
+svg {
+  left: 0px;
+  height: 100vh;
+}
+
+body {
+  background-color: #222;
+}
+
+path {
+  stroke: white;
+  fill: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+}
+path:hover {
+  fill: #198964;
+  transform: translate(-5px, -5px);
+}
+
+.title_area {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+hr {
+  width: 50px;
+  margin-right: 0;
+}
+
+.iframe_area {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+}
