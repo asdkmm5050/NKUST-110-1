@@ -1,5 +1,4 @@
-var cities = [
-    {
+var cities = [{
         city: "Kaohsiung City",
         name: "高雄市"
     },
@@ -88,11 +87,11 @@ var cities = [
         name: "連江縣"
     }
 ];
-function set_frame_height() {
+
+function set_frame_size() {
     var ifm = document.getElementById("iframe");
-    ifm.height = document.body.clientHeight - 100;
-    var ifmbox = document.getElementById("iframe_box");
-    ifmbox.height = ifm.height;
+    ifm.height = document.body.clientHeight;
+    ifm.width = document.body.clientWidth/5*3;
 }
 var vm = new Vue({
     el: "#app",
@@ -114,10 +113,11 @@ $("path").mouseenter(function () {
     vm.city = city;
     vm.name = vm.set_city.name;
 });
-$("path").click(function (){
-    document.getElementById("iframe").src="html/"+vm.name+".html";
+$("path").click(function () {
+    document.getElementById("iframe").src = "html/" + vm.name + ".html";
 })
 
 window.onload = function () {
-    set_frame_height();
+    set_frame_size();
+    setInterval('set_frame_size()', 1);
 };

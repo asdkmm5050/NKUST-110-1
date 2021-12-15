@@ -4,7 +4,8 @@
 
 svg {
   left: 0px;
-  height: 100vh;
+  width: 50vw;
+  height: 90vh;
 }
 
 body {
@@ -39,4 +40,6 @@ hr {
   position: absolute;
   right: 20px;
   top: 150px;
+  width: 50vw;
+  height: 82vh;
 }
