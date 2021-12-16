@@ -1,7 +1,7 @@
 # NKUST-110-1
 ### 資料來源
-https://data.gov.tw/
-https://simplemaps.com/resources/svg-tw
+- https://data.gov.tw/
+- https://simplemaps.com/resources/svg-tw
 
 ### 預覽
 ![image](https://user-images.githubusercontent.com/52891597/146158445-c86ce7c4-55e4-4fe1-b611-c46309c324fe.png)
