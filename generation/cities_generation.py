@@ -13,9 +13,10 @@ def html_generation_function(city_name):
     city_latitude = latitudes[0]
     city_longitude = longitudes[0]
     city_map = folium.Map(location=[city_latitude, city_longitude], zoom_start=9)
-
     for lat, lng, label in zip(latitudes, longitudes, labels):  # 標籤圖
-        folium.Marker([lat, lng], popup=label).add_to(city_map)
+        iframe = folium.IFrame(f'{label}', height=50, width=len(f'{label}') * 15)
+        popup = folium.Popup(iframe, max_width=len(f'{label}') * 15)
+        folium.Marker([lat, lng], popup=popup).add_to(city_map)
 
     heat_data = city_data[['Latitude', 'Longitude']].values.tolist()  # 熱度圖
     HeatMap(heat_data).add_to(city_map)
